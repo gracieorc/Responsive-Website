@@ -1,0 +1,46 @@
+/* === For your Responsive CSS === */
+img {
+max-width: 100%;
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@media screen and (min-width:601px){}
+header {
+grid-template-columns: 100%;
+    text-align: center;
+
+    
+}
+#nav a {
+    display: block
+    background-color: orange;
+    text-align: center;
+    padding: inherit;
+    
+    
+    }
+
+    #logo {
+        align-items: center;
+        
+    }
+#splash {
+font-size: 2rem;
+line-height: 2.5rem;
+height: 10.7rem;
+    }
+main {
+    grid-template-column: 100%;
+    grid-column: 100%;
+
+}
+
+/*====#app {
+grid-column: 1/2;
+}
+*/
+
+    #mobile-menu {
+        display: none;
+        
+    }   
